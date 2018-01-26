@@ -12,7 +12,8 @@
     </appender>
 
     <root level="debug">
-        <!--<appender-ref ref="STDOUT" />-->
-        <appender-ref ref="MongoDBAppender" />
+        <appender-ref ref="STDOUT" />
+        <!--<appender-ref ref="MongoDBAppender" />-->
+
     </root>
 </configuration>
